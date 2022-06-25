@@ -1,6 +1,6 @@
 alert('My Calculator'  +  '\nPress OK to proceed' )
 let num1 = parseInt(prompt('Number 1: '));
-let opr = prompt('Operator: ');
+let opr = prompt('Operator:(+,-,/,*) ');
 let num2 = parseInt(prompt('Number 2: '));
 let numAdd = num1 + num2;
 let numMinus = num1 - num2;
